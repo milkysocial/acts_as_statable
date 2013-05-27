@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ActsAsStatable::VERSION
   spec.authors       = ["Ghislain de Juvigny"]
   spec.email         = ["gdjuvigny@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Stats on a Mongoid::Document Model}
+  spec.summary       = %q{Stats on a Mongoid::Document Model}
   spec.homepage      = ""
   spec.license       = "MIT"
 
