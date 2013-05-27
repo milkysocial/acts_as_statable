@@ -6,7 +6,7 @@ This gem creates charts based on a Mongoid Model. It's based on ChartKick for ex
 
 Add this line to your application's Gemfile:
 
-    gem 'acts_as_statable'
+    gem 'acts_as_statable', git: 'git@github.com:milkysocial/acts_as_statable.git'
 
 And then execute:
 
