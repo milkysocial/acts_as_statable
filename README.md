@@ -1,6 +1,6 @@
 # ActsAsStatable
 
-TODO: Write a gem description
+This gem creates charts based on a Mongoid Model. It's based on ChartKick for example.
 
 ## Installation
 
@@ -18,7 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Works with Mongoid only
+
+Add this in your model :
+
+    include Mongoid::Timestamps
+    include ActsAsStatable
+
+
+Add this in your layout
+
+    <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
+
+Add this in your view :
+
+    <%= line_chart_model User %> # Group by date and created at automatically
+    <%= line_chart User.group_by_date(:created_at) %>
+
 
 ## Contributing
 

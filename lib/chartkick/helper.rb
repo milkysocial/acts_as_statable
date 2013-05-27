@@ -14,7 +14,7 @@ module Chartkick
     end
     
     def line_chart_model(model, options = {})
-      line_chart(model.group_by_minute(:created_at))
+      line_chart(model.group_by_day(:created_at))
     end
 
     private
