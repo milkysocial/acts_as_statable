@@ -23,8 +23,7 @@ Works with Mongoid only
 Add this in your model :
 
     include Mongoid::Timestamps
-    include ActsAsStatable
-
+    include ActsAsStatable::Mongoid
 
 Add this in your layout
 

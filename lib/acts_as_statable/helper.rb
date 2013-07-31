@@ -10,7 +10,7 @@ module ActsAsStatable
           <h3>#{title} : #{model.all.count}</h3>
           #{line_chart_model model}
         </div>
-      }
+      }.html_safe
     end
   end
 end
